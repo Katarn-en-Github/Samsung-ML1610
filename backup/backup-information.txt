@@ -1,0 +1,24 @@
+Package: printer-driver-splix
+Status: install ok installed
+Priority: optional
+Section: text
+Installed-Size: 157
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: armhf
+Source: splix (2.0.1-1)
+Version: 2.0.1-1+b1
+Replaces: splix (<< 2.0.0+svn299-1)
+Depends: libc6 (>= 2.38), libcups2t64 (>= 1.4.0), libcupsimage2t64 (>= 1.4.0), libgcc-s1 (>= 3.5), libjbig0 (>= 2.0), libstdc++6 (>= 5), cups, cups-client, cups-filters
+Breaks: splix (<< 2.0.0+svn299-1)
+Description: Driver for Samsung and Xerox SPL2 and SPLc laser printers
+ Support for printing to SPL2- and SPLc-based printers. These are most
+ of the cheaper Samsung laser printers which do not understand standard
+ languages like PostScript or PCL. Both monochrome (ML-15xx, ML-16xx,
+ ML-17xx, ML-2xxx) and color (CLP-5xx, CLP-6xx) models are supported.
+ Also some rebranded Samsungs like the Xerox Phaser 6100 work with this
+ driver.
+ .
+ Note that older SPL1-based models (ML-12xx, ML-14xx) do not work. Use
+ these printers with the older "gdi" driver which is built into
+ GhostScript.
+Homepage: http://splix.ap2c.org/
