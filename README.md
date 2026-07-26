@@ -83,7 +83,7 @@ Allí se explica:
 
 Este repositorio conserva los archivos mínimos necesarios utilizados durante la instalación documentada.
 
-No pretende reemplazar el paquete **printer-driver-splix**, sino preservar exactamente la configuración utilizada durante las pruebas.
+El respaldo incluido tiene fines de preservación y recuperación. Siempre que sea posible, se recomienda instalar el paquete oficial printer-driver-splix desde los repositorios de Raspberry Pi OS.
 
 ---
 
